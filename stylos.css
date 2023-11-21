@@ -1,0 +1,572 @@
+/*NO TOCAR*/
+body {
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#inicio_negro {
+    font-size: 2em;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    padding: 1em;
+    margin: 0;
+
+    
+}
+
+#segundo_white {
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+
+  position: fixed;
+
+
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.listamomo {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: left;
+}
+
+li {
+  margin: 0 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(0, 0, 0);
+  font-size: 27px;
+  text-align: center;
+  list-style: none;
+}
+
+ul li:hover {
+  border-bottom: 1px solid black;
+}
+
+.imglogocbum {
+
+  height: 100px;
+  width: 90px;
+
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+#Fondogrismomo {
+  background-color: rgb(189, 185, 199);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+
+
+}
+
+.music {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.music .bar {
+  width: 12px;
+  border-radius: 10px;
+  background: white;
+  animation: movement 1.5s ease-in-out infinite;
+
+}
+
+@keyframes movement {
+
+  0%,
+  100% {
+    height: 2px;
+  }
+
+  50% {
+    height: 80px;
+
+  }
+}
+
+
+.music .bar:nth-child(1) {
+  background: white;
+  animation-delay: 1s;
+}
+
+.music .bar:nth-child(2) {
+  background: black;
+  animation-delay: .8s;
+}
+
+.music .bar:nth-child(3) {
+  background: white;
+  animation-delay: .6s;
+}
+
+.music .bar:nth-child(4) {
+  background: black;
+  animation-delay: .4s;
+}
+
+.music .bar:nth-child(5) {
+  background: white;
+  animation-delay: .2s;
+}
+
+.music .bar:nth-child(6) {
+  background: black;
+  animation-delay: .2s;
+}
+
+.music .bar:nth-child(7) {
+  background: white;
+  animation-delay: .4s;
+}
+
+.music .bar:nth-child(8) {
+  background: black;
+  animation-delay: .6s;
+}
+
+.music .bar:nth-child(9) {
+  background: white;
+  animation-delay: .8s;
+}
+
+.music .bar:nth-child(10) {
+  background: black;
+  animation-delay: 1s;
+}
+
+
+
+
+
+#allproduct {
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 75px;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+#tablaproductos {
+
+  height: 50%;
+  width: 100%;
+
+  text-align: center;
+}
+
+.productos {
+  height: 250px;
+  width: 250px;
+}
+
+.pxfila {
+  height: 60px;
+  width: 100%;
+}
+
+/* NO TOCAR*/
+
+
+/*ESTILOS DE SOMOS*/
+
+.ParrafoHistoriaDeToan {
+  text-align: justify;
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: normal;
+}
+.TituloAcercade{
+  text-align: center;
+  font-size: 5em;
+  color: gray;
+}
+.lemadeToan{
+  text-align: center;
+  padding: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: normal;
+}
+
+
+/*ESTILOS DE HISTORIA*/
+
+.TituloHistoria{
+  text-align: center;
+  font-size: 3em;
+  color: gray;
+}
+.HistoriaParrafo{
+  text-align: justify;
+  padding: 6%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: normal;
+}
+.HistoriaEmpresaToan{
+  background-color: beige;
+  text-align: center;
+}
+.ImagenHistoriaToan{
+  max-width: 500px;
+  max-height: 520px;
+  padding: 3%;
+
+}
+
+
+/*ESTILOS DE CATALOGO*/
+#fondobeige{
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+
+  }
+
+#TituloCatalogo{
+ font-size: xx-small;
+   font-size: 5em;
+  color: rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+  
+  .cellphone {
+  display: flex;
+
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 20px; */
+  padding: 20px;
+
+  margin: 10px;
+  text-align: center;
+
+  width: 500px;
+  height: 700px;
+  border: 1px solid #ccc; /* Añadido un borde para mayor claridad */
+
+  
+
+  
+  }
+
+.products-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+
+/* .product-details {
+  flex: 1; /* Esto hará que ocupe el espacio disponible en la dirección principal (en este caso, vertical)
+} 
+*/
+  
+  .cellphone img {
+  width: 300px;
+  height: 350px;
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  
+
+  }
+
+
+  .specs-container{
+  display: none;
+
+  max-width: 200px;
+  max-height: 200px;
+  /* text-align: center;
+  justify-content: center; */
+  margin: auto;
+ 
+
+  }
+
+  .TextoEspecifi{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+
+
+
+  
+  .buy-button{
+   text-align: center;
+   width: 100%;
+      background-color: red;
+      border: none;
+      padding: 12px;
+      color: whitesmoke;
+      margin: 16px 10px;
+      font-size: 16px;
+  }
+  
+  .buy-button:hover{
+      cursor: pointer;
+   
+      transition: transform 1.0s ease-out;
+      transform: scale(1.05);
+  
+  }
+
+
+
+/*ESTILOS DE PROMOCIONES*/
+
+  
+#Promociones{
+  background: gray;
+
+
+}
+
+  .Anunciocolornegro{
+    background: black;
+  }
+  .tipografia-grande{
+    color: white;
+
+}
+
+
+  .contenedorOfertas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    
+
+
+  }
+
+  .productOferta{
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  
+    margin: 10px;
+    text-align: center;
+  
+    width: 500px;
+    height: 700px;
+    border: 1px solid #ccc; /* Añadido un borde para mayor claridad */
+
+    background: white
+  }
+
+  .productos{
+    /* width: 300px;
+    height: 350px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center; */
+
+
+    width: 300px;
+    height: 350px;
+    margin-bottom: 10px;
+    margin-left: auto;  /* Centrar horizontalmente */
+    margin-right: auto; /* Centrar horizontalmente */
+     text-align: center;
+    justify-content: center;
+
+  
+  }
+
+  .AgregarCarrito{
+    text-align: center;
+    max-width: 200px;
+       background-color: rgb(48, 25, 0);
+       border: none;
+       padding: 12px;
+       color: whitesmoke;
+       margin: 16px 10px;
+       font-size: 16px;
+   }
+   
+   .AgregarCarrito:hover{
+       cursor: pointer;
+    
+       transition: transform 1.0s ease-out;
+       transform: scale(1.05);
+   
+   }
+
+
+/*ESTILOS DE SUCURSALES*/
+
+.SucursalesTitulo{
+  font-size: xx-small;
+  font-size: 5em;
+ color: rgb(0, 0, 0);
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+
+.SucursalesTitulo2{
+  font-size: xx-small;
+  font-size: 3em;
+ color: rgb(0, 0, 0);
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+ListaSucusales{
+  color: black;
+  text-align: center;
+  
+}
+
+/*ESTILOS PARA EL MENU*/
+/* #segundo_white.active{
+
+} */
+
+/*ESTILOS DE CONTACTO*/
+
+.tag{
+  text-align: center;
+}
+.tag span{
+
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+}
+
+#Contactos {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+}
+
+.u-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.tag {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background-color: #3498db;
+}
+
+.full {
+  width: 100%;
+}
+
+#trucazo {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #3498db;
+}
+
+#trucazo:hover {
+  text-decoration: underline;
+  color: #1d6fa5;
+}
+
+
+#trucazo{
+  opacity:0;
+}
